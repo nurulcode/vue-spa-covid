@@ -30,9 +30,9 @@ export default {
     menus: [
       { title: "Home", icon: "mdi-home", route: "/" },
       { title: "Info", icon: "mdi-information", route: "/info" },
-      { title: "About", icon: "mdi-account", route: "/about" },
+      { title: "About", icon: "mdi-account", route: "/about" }
 
-      { title: "More", icon: "mdi-arrow-right-bold-box", route: "/more" }
+      // { title: "More", icon: "mdi-arrow-right-bold-box", route: "/more" }
     ]
   })
 };

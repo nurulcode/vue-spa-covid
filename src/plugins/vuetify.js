@@ -8,15 +8,14 @@ export default new Vuetify({
   theme: {
     themes: {
       light: {
-        primary: "#ee44aa",
+        primary: "#D43F8D",
         secondary: "#424242",
         accent: "#82B1FF",
-        error: "#c0392b",
+        error: "#F82649",
         info: "#2196F3",
         success: "#16a085",
-        success1: "#1abc9c",
         warning: "#FFC107",
-        orange: "#e67e22",
+        orange: "#FC7303",
         wet: "#34495e",
         mid: "#2c3e50",
         silver: "#95a5a6"

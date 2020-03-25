@@ -1,6 +1,11 @@
 <template>
   <div>
-    <v-col v-for="(item, i) in items" :key="i" cols="12">
+    <div class="text-center">
+      <h2>INFORMASI</h2>
+      <p><span class=" font-weight-light">Mencegah informasi yang tidak benar atau hoaks</span></p>
+    </div>
+    <hr />
+    <v-col v-for="(item, i) in getInfo" :key="i" cols="12">
       <v-card :color="item.color" dark>
         <div class="d-flex flex-no-wrap justify-space-between">
           <div>
@@ -19,20 +24,12 @@
 </template>
 
 <script>
+import { mapGetters } from "vuex";
 export default {
-  data: () => ({
-    items: [
-      {
-        color: "success",
-        title: "5 Cara Efektif Agar Tidak Tertular Virus Corona",
-        artist: "https://www.alodokter.com/"
-      },
-      {
-        color: "success",
-        title: "[HOAX], Pasien Suspect Corona Kabur dari RSU Manokwari",
-        artist: "BLUD RSU MANOKWARI"
-      }
-    ]
-  })
+  computed: {
+    ...mapGetters({
+      getInfo: "info/info"
+    })
+  }
 };
 </script>
