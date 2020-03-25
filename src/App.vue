@@ -29,6 +29,7 @@ export default {
     // drawer: false,
     menus: [
       { title: "Home", icon: "mdi-home", route: "/" },
+      { title: "PB", icon: "mdi-whistle", route: "/papua_barat" },
       { title: "Info", icon: "mdi-information", route: "/info" },
       { title: "About", icon: "mdi-account", route: "/about" }
 
