@@ -6,7 +6,7 @@
         <h2 class="success--text">KAWAL CORONA</h2>
         <p><span class=" font-weight-light">Coronavirus Global & Indonesia Live Data</span></p>
       </div>
-      <v-carousel cycle hide-delimiters height="250" show-arrows-on-hover interval="6000">
+      <v-carousel cycle hide-delimiters height="200" show-arrows-on-hover interval="6000">
         <v-carousel-item v-for="(item, i) in getSlide" :key="i" :src="item.src"></v-carousel-item>
       </v-carousel>
       <hr />
